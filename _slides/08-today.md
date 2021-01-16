@@ -5,5 +5,6 @@ transition: zoom
 ## Today
 
 - A blend of popular ideas
-  - Go, Rust, Ruby, Objective-C
+  - Go: Channels and routines for concurrency
+  - Rust, Ruby, Objective-C
   - Pythonic declarative statements
