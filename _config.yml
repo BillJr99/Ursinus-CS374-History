@@ -1,11 +1,11 @@
 # Set GitHub Pages to serve master branch after updating baseurl and title
 
 # SITE CONFIGURATION
-baseurl: "/Reveal-Jekyll"
+baseurl: "/Ursinus-CS374-History"
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 reveal:
-  title: "Reveal-jekyll"
+  title: "CS374 History of Programming Languages"
   transition: "fade" # none/fade/slide/convex/concave/zoom
   theme: "sky" # beige/blood/league/moon/night/serif/simple/sky/solarized/white
   number: true
