@@ -4,8 +4,7 @@ transition: zoom
 
 ## Machine Language
 
-- Look up the opcode and manipulate registers directly
-  - Add, subtract, *etc.*
+- Look up the opcode and manipulate registers directly (add, subtract, *etc.*)
 
 | Instruction Type | Opcode (6 bits) | Data (26 bits)                                                           |
 |------------------|-----------------|--------------------------------------------------------------------------|
