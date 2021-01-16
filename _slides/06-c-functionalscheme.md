@@ -2,9 +2,9 @@
 transition: zoom
 ---
 
-## Declarative Paradigm: Functional Programming with Scheme
+## Declarative Paradigm: Functional Programming
 
-- 1970's: Descendent of List Processor (LISP, 1958)
+- 1970's: Scheme - Descendent of List Processor (LISP, 1958)
 - Composition of local functions that operate on tuples
 
 ```
