@@ -9,5 +9,5 @@ transition: zoom
 
 ```
 arr = [0, 1, 2, 3, 4, 5]
-evens = np.where(a % 2 > 0, a*2, a)
+evens = np.where(arr % 2 > 0, arr*2, arr)
 ```
