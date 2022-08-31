@@ -8,6 +8,6 @@ transition: zoom
 - Concise, easy to write, but complex instructions can be more difficult to read
 
 ```
-arr = [0, 1, 2, 3, 4, 5]
+arr = np.array([0, 1, 2, 3, 4, 5])
 evens = np.where(arr % 2 > 0, arr*2, arr)
 ```
