@@ -27,6 +27,20 @@
     <link rel="stylesheet" href="{{ 'assets/css/reveal.css' | relative_url }}">
     <link rel="stylesheet" href="{{ 'assets/css/theme/' | relative_url }}{{ site.reveal.theme }}.css" id="theme">
 
+    <!-- Fit adjustments: shrink code/tables/quotes so dense slides fit; keep prose large -->
+    <style>
+      .reveal pre { width: 100%; margin: 8px auto; box-shadow: none; font-size: 0.38em; }
+      .reveal pre code { line-height: 1.18; padding: 8px 12px; }
+      .reveal h1, .reveal h2, .reveal h3 { line-height: 1.1; margin-bottom: 14px; }
+      .reveal table { font-size: 0.55em; }
+      .reveal table th, .reveal table td { padding: 0.2em 0.4em; }
+      .reveal blockquote { font-size: 0.72em; width: 92%; padding: 10px 16px; }
+      .reveal section img { max-height: 290px; max-width: 86%; height: auto; width: auto; box-sizing: border-box; }
+      .reveal p { line-height: 1.2; margin-bottom: 0.4em; }
+      .reveal li { line-height: 1.2; }
+      .reveal ol, .reveal ul { margin-bottom: 0.2em; }
+    </style>
+
     <!-- Printing and PDF exports -->
     <script>
       var link = document.createElement('link');
